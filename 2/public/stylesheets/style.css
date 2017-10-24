@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+}
+.c{
+	clear: both;
+}
+.wrap{
+	width: 1366px;
+}
+.box{
+	width: 100%;
+	float: left;
+}
+.nav{
+	width: 43%;
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	display: flex;
+	position: relative;
+}
+.nav li{
+	width: 60px;
+	text-align: center;
+	justify-content:space-between;
+}
+.nav li a{
+	color: black;
+}
+#b{
+	display: block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: white;
+	background: blue;
+}
+.list{
+	width: 60px;
+	border: 1px solid;
+	text-align: center;
+	position: absolute;
+	top:50px;
+	right:100px;
+}
+.list li{
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+}
+.list li a:hover{
+	display: block;
+	background: blue;
+	color:white;
+}
+.con{
+	width: 100%;
+	float: left;
+}
+.content{
+	width: 500px;
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.content img{
+	width: 200px;
+	height: 90px;
+	margin-left: 140px;
+}
+.sear{
+	width:500px;
+}
+.sear>input{
+	display: block;
+	width:400px;
+	height: 40px;
+	float: left;
+}
+.sear span{
+	display: block;
+	width: 90px;
+	height:40px;
+	line-height: 40px;
+	float: left;
+	background: blue;
+	text-align: center;
+}
+.sear span a{
+	color: white;
+	text-decoration: none;
+}
+#item{
+	background:url('/images/5.jpg') center right no-repeat;
+}
+.foot{
+	width: 100%;
+	height: 300px;
+	padding-top: 140px;
+}
+.foot dl{
+	display: block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin:auto;
+}
+.f_nav{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	margin: auto;
+	display: flex;
+}
+.f_nav li{
+	width: 100px;
+	height: 50px;
+	justify-content: space-between;
+	font-size: 12px;
+	text-align: center;
+}
+.f_nav li a{
+	color: #999;
+}
+.f_list{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	margin: auto;
+	font-size: 12px;
+	display: flex;
+}
+.f_list p:nth-child(1){
+	width: 380px;
+	text-align: center;
+}
+.f_list p:nth-child(2){
+	width: 200px;
+	text-align: center;
+}
+.f_list p a{
+	color: #999;
+}
+.wrap a:hover{
+	color: blue
+}
+
